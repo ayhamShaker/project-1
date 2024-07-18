@@ -1,7 +1,7 @@
 import "./Header.css";
 import logo from "../assets/images/logo.png";
 
-function Header() {
+const Header = () => {
   return (
     <div>
       <div>
@@ -9,6 +9,7 @@ function Header() {
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src={logo} alt="my logo" width="30" height="24" />
+                   Project-1
             </a>
             <button
               className="navbar-toggler"
@@ -23,7 +24,7 @@ function Header() {
             </button>
             <div
               className="collapse navbar-collapse"
-              id="navbarSupportedContent"
+              id="navbarSupportedContent"   
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
@@ -109,6 +110,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
