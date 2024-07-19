@@ -1,10 +1,11 @@
 import "./Container.css";
+import Article from "../Article/Article"
 
 const Container = () => {
   return (
-    <>
-     <h1>test</h1>
-    </>
+
+     <Article />
+ 
   );
 };
 

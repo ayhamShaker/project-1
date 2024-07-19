@@ -1,11 +1,13 @@
 import "./App.css";
-import { Header, Footer, Container } from "../components/index";
+import { Header, Footer, Container, Article } from "./index";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Container></Container>
+      <Container>
+        <Article />
+      </Container>
       <Footer />
     </>
   );
