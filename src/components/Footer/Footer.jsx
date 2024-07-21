@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="py-5 navbar-light bg-light">
+    <footer className=" py-5 navbar-light bg-light">
       <div className="row justify-content-around">
         <div className="col-2">
           <h5>Project 1</h5>
@@ -39,17 +39,17 @@ const Footer = () => {
           <form>
             <h5>Subscribe to our newsletter</h5>
             <p>Monthly digest of whats new and exciting from us.</p>
-            <div className="d-flex w-100 gap-2">
+            <div className=" navbar d-flex w-100 gap-2">
               <label htmlFor="newsletter1" className="visually-hidden">
                 Email address
               </label>
               <input
                 id="newsletter1"
                 type="text"
-                className="htmlForm-control"
+                className="container htmlForm-control"
                 placeholder="Email address"
               />
-              <button className="btn btn-primary" type="button">
+              <button className=" btn btn-primary" type="button">
                 Subscribe
               </button>
             </div>
