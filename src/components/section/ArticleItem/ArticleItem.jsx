@@ -1,29 +1,32 @@
 import "./ArticleItem.css";
-import art from "../assets/images/art.jpg";
-import Download from "../Download/Download";
+import art from "../../assets/images/art.jpg";
+import Download from "../../Download/Download";
 
 const ArticleItem = () => {
   return (
     <article className=" container d-flex flex-column align-items-center bg-light">
-      <div>
-        <img width="100%" height="461" src={art} alt="Article 1 image" />
+      <div className="display">
+        <h3 className="p-3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod
+        </h3>
+        <img width="600" height="500" src={art} alt="Article 1 image" />
       </div>
-      <header className="p-4 ">
+      <header className="p-4 text-center ">
         <span>
           <a
-            href="https://pixabay.com/photos/church-cathedral-towers-cuenca-8393259/"
+            href="https://cdn.pixabay.com/photo/2023/11/16/22/35/church-8393259_1280.jpg"
             target="_blank"
           >
-            View Image
+            View Image 4k
           </a>{" "}
           <span>•</span>{" "}
           <a>
             <Download />
           </a>
         </span>
-        <h2>
+        <h4 className="pt-1">
           <a href="#">Go to article</a>
-        </h2>
+        </h4>
         <div>
           <div>
             <a href="#">Show Comments</a>

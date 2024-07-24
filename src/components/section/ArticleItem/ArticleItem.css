@@ -1,0 +1,16 @@
+article{
+    margin: 20px 250px 0px ;
+    padding-top: 24px;
+    border-radius: 70px;
+}
+img{
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;}}
+
+        .display{
+            display: contents;
+        }

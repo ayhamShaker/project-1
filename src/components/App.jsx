@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Footer, Container, Article,} from "./index";
+import { Header, Footer, Container, Article } from "./index";
 
 const App = () => {
   return (

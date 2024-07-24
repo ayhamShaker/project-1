@@ -1,6 +1,6 @@
 import "./Header.css";
-import logo from "../assets/images/logo.png";
-      
+import logo from "../../assets/images/logo.png";
+
 const Header = () => {
   return (
     <div>
@@ -9,9 +9,10 @@ const Header = () => {
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src={logo} alt="my logo" width="30" height="24" />
-                   Project-1
+              Project-1
             </a>
             <button
+              onClick={() => window.location.reload()}
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -24,7 +25,7 @@ const Header = () => {
             </button>
             <div
               className="collapse navbar-collapse"
-              id="navbarSupportedContent"   
+              id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">

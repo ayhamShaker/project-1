@@ -1,11 +1,11 @@
 import "./Article.css";
-import ArticleItem from "../ArticleItem/ArticleItem";
+import { CardItem, ArticleItem } from "./index";
 
 const Article = () => {
   return (
     <>
       <ArticleItem />
-      <ArticleItem  />
+      <CardItem />
       <ArticleItem />
     </>
   );
