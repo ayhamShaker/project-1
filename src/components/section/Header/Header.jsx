@@ -8,11 +8,9 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
             <a className="navbar-brand" href="#">
-              <img src={logo} alt="my logo" width="30" height="24" />
+              <img src={logo} alt="my logo" width="30" height="24"  />
               Project-1
-            </a>
             <button
-              onClick={() => window.location.reload()}
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -21,8 +19,8 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
             </button>
+            </a>
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
@@ -112,5 +110,6 @@ const Header = () => {
     </div>
   );
 };
+
 
 export default Header;
